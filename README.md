@@ -20,6 +20,6 @@ This is my initial personal portfolio for my work as a web developer. This site 
 
 ## Acknowledgments
 
-* Thinkful & Michelle Huynh
+* [Thinkful](https://thinkful.com) & Michelle Huynh
 
 For teaching me (almost) everything I used to create this site.
