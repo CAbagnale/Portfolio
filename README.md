@@ -2,7 +2,7 @@
 
 [LIVE](https://cabagnale.github.io/Portfolio/)
 
-![Connor Ashpole](/media/sreenshot.png?raw=true "Portfolio")
+![Connor Ashpole](media/screenshot.PNG "Portfolio")
 
 ## About
 
