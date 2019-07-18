@@ -1,5 +1,9 @@
 # My Portfolio
 
+[LIVE](https://cabagnale.github.io/Portfolio/)
+
+![Connor Ashpole](/media/sreenshot.png?raw=true "Portfolio")
+
 ## About
 
 This is my initial personal portfolio for my work as a web developer. This site will be changed and updated to reflect my coding knowledge.
