@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- BELOW: normalize CSS (taking too long to load)-->
+    <!--<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">-->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto|Playfair+Display|Fjalla+One|IBM+Plex+Sans|Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Connor Ashpole's Portfolio</title>
+</head>
+<body>
+    <nav role="navigation">
+        <input type=button value="Connor Ashpole" class="name" onclick="location.href = '#top'" />
+        <input type=button value="&#9776" class="hamburger">
+        <div class="mobile-nav hidden">
+            <div class="nav-menu">
+                <ul>
+                    <li><input type=button value="Bio" class="menu-button" onclick="location.href = '#bio'" /></li>
+                    <li><input type=button value="Projects" class="menu-button" onclick="location.href = '#projects'" /></li>
+                    <li><input type=button value="GitHub" class="menu-button" onclick="location.href = 'https://github.com/CAbagnale'" /></li>
+                    <li><input type=button value="LinkedIn" class="menu-button" onclick="alert('My LinkedIn profile will appear [when I make a finalized one]')" /></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-links">
+            <div class="nav-link"><a href="#bio">Bio</a></div>
+            <div class="nav-link"><a href="#projects">Projects</a></div>
+            <div class="nav-link"><a href="https://github.com/CAbagnale" target="_blank">GitHub</a></div>
+            <div class="nav-link"><a href="#" onClick="alert('My LinkedIn profile will appear [when I make a finalized one]')">LinkedIn</a></div>
+        </div>
+    </nav>
+    <main role="main">
+        <header role="banner">
+            <div class="photo">photo</div>
+            <summary class="banner-right"><h1>My name is Connor.</h1>
+                <div class="divider"></div>
+                <h2>I am a web developer, video game enthusiast, and IPA aficionado. 
+                I appreciate good (or bad) action movies and home improvement projects.</h2>
+                </summary>
+        </header>
+        <section class="bio">
+            <a class="anchor" id="bio"></a>
+            <p>I am a front-end web developer and future graduate of Thinkful's full-stack flex program. I love puzzles and problem-solving. Intuitive and robust design is something I strive for, and I love when apps are easy to learn and function as expected. 
+                When I'm not coding, I am probably playing video games, watching Netflix, or biking. I am also a life-long guitar player and play from time to time.</p>
+        </section>
+        <section class="projects project-grid">
+            <a class="anchor" id="projects"></a>
+            <input type=button value="Quiz App" class="project-card quiz-app" onclick="location.href = 'https://cabagnale.github.io/BenHoganQuizApp/'" />
+            <input type=button value="[future project #1]" class="project-card temp-project" onclick="location.href = '#projects'" />
+            <input type=button value="[future project #2]" class="project-card temp-project" onclick="location.href = '#projects'" />
+            <input type=button value="[future project #3]" class="project-card temp-project" onclick="location.href = '#projects'" />
+            <input type=button value="[future project #4]" class="project-card temp-project" onclick="location.href = '#projects'" />
+            <input type=button value="[future project #5]" class="project-card temp-project" onclick="location.href = '#projects'" />
+        </section>
+    </main>
+    <footer role="content-info">footer</footer>
+    <script src="script.js"></script> 
+</body>
+</html>
