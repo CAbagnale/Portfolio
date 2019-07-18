@@ -1,6 +1,4 @@
-# Project Title
-
-My Portfolio
+# My Portfolio
 
 ## About
 
