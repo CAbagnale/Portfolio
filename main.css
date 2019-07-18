@@ -354,8 +354,8 @@ a.anchor {
         display: flex;
         justify-content: space-around;
         min-width: 225px;
-        max-width: 350px;
-        margin-left: 100px;
+        max-width: 400px;
+        margin-left: 40px;
         margin-right: 30px;
     }
 
@@ -399,5 +399,9 @@ a.anchor {
         max-width: 800px;
         font-size: 18px;
         padding: 18px 40px;
+    }
+
+    .nav-link {
+        margin-right: 20px;
     }
 }
