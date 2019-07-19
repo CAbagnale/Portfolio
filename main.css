@@ -8,7 +8,6 @@ body {
     text-align: center;
     line-height: 1.5;
     background-image: linear-gradient(to right, #77c9d4 , #57bc90);
-    /* background-color: rgb(179, 179, 179); */
 }
 
 main {
@@ -178,7 +177,6 @@ a {
 }
 
 .bio {
-    /* background-color: #a5a5af; */
     background-color: rgba(110, 110, 110, 0.384);
 }
 
