@@ -1,6 +1,6 @@
 # My Portfolio
 
-# [LIVE](https://cabagnale.github.io/Portfolio/)
+# [LIVE APP](https://cabagnale.github.io/Portfolio/)
 
 ![Connor Ashpole](media/screenshot.PNG "Portfolio")
 
